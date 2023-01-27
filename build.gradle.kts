@@ -20,6 +20,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
     paperDevBundle("${Dependency.Paper.Version}-R0.1-SNAPSHOT")
+    implementation("io.github.monun:kommand-api:3.0.0")
 }
 
 extra.apply {
